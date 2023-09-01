@@ -29,4 +29,8 @@ Você pode usar este projeto como um ponto de partida para criar seus próprios 
 Você pode melhorar o projeto adicionando mais informações aos resultados da pesquisa, como o número de estrelas e forks dos repositórios do usuário.
 Você pode adicionar mais funcionalidades ao projeto, como a capacidade de seguir e favoritar usuários.
 
+#Link do projeto:
+
+https://nskntc.github.io/GitFav/
+
 **Espero que você goste deste projeto!
