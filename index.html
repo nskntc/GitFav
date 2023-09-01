@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitFav</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="./js/main.js" type="module" defer></script>
+</head>
+<body>
+    
+    <div id="app">
+
+        <header>
+            <img src="./assets/Gitfav.svg" alt="Logo GitFav">
+            <div class="search">
+              <label class="sr-only" for="input-search">Digite o Github username que quer favoritar</label>
+              <input id="input-search" type="text" placeholder="Digite o Github username que quer favoritar">
+              <button><img src="./assets/star.svg" alt="Imagem de estrela" id="star"><span>Favoritar</span></button>
+            </div>
+        </header>
+
+        <div class="margin">
+
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Usuário</th>
+                            <th>Repositórios</th>
+                            <th>Seguidores</th>
+                            <th>Ação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="user">
+                                <img src="https://github.com/maykbrito.png" alt="Foto de perfil de maykbrito" class="perfil-img">
+                                <a href="https://github.com/maykbrito" class="perfil-link" target="_blank">
+                                    <p>Mayk Brito</p>
+                                    <span>/maykbrito</span>
+                                </a>
+                            </td>
+                            <td class="repositories">123</td>
+                            <td class="followers">1234</td>
+                            <td>
+                                <button class="remove">Remover</button>
+                            </td>
+                        </tr>   
+                    </tbody>
+                </table>
+            </div>
+            <div class="empty-table hidden">
+                <img src="./assets/Estrela.svg" alt="Imagem de estrela">
+                <p>Nenhum favorito ainda</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
