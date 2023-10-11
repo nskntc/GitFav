@@ -1,36 +1,25 @@
-#Nome do projeto: GitFav
+##GitFav
 
-Descrição: Este projeto permite que você pesquise usuários do GitHub digitando seu nome de usuário. Os resultados da pesquisa são exibidos em uma tabela com sua foto, nome, nome de usuário, repositórios e seguidores. Você também pode remover um usuário da tabela.
+This project allows you to search for GitHub users by entering their username. The search results are displayed in a table with their photo, name, username, repositories and followers. You can also remove a user from the table.
 
-#Tecnologias utilizadas:
+##Stacks:
 
-HTML
-CSS
-JavaScript
-API do GitHub
+HTML CSS JavaScript GitHub API
 
-#Como usar:
+##How to use:
 
-Abra o projeto em um navegador.
-Na caixa de texto, digite o nome de usuário do usuário do GitHub que você deseja pesquisar.
-Clique no botão "Favoritar".
-Os resultados da pesquisa serão exibidos na tabela.
-Para remover um usuário da tabela, clique no botão "Remover".
+Open the project in a browser. In the text box, type the username of the GitHub user you want to search for. Click on the "Favorite" button. The search results will be displayed in the table. To remove a user from the table, click on the "Remove" button.
 
-#Como funciona:
+##How it works:
 
-O projeto usa a API do GitHub para obter os dados de usuário. A API do GitHub fornece uma variedade de endpoints que podem ser usados para obter informações sobre usuários, repositórios e seguidores.
+The project uses the GitHub API to obtain user data. The GitHub API provides a variety of endpoints that can be used to obtain information about users, repositories and followers.
 
-O código do projeto é simples e direto. Ele usa HTML para criar a interface do usuário, CSS para estilizar a interface do usuário e JavaScript para interagir com a API do GitHub e exibir os resultados da pesquisa.
+The project's code is simple and straightforward. It uses HTML to create the user interface, CSS to style the user interface and JavaScript to interact with the GitHub API and display the search results.
 
-#Dicas:
+##Tips:
 
-Você pode usar este projeto como um ponto de partida para criar seus próprios aplicativos que usam a API do GitHub.
-Você pode melhorar o projeto adicionando mais informações aos resultados da pesquisa, como o número de estrelas e forks dos repositórios do usuário.
-Você pode adicionar mais funcionalidades ao projeto, como a capacidade de seguir e favoritar usuários.
+You can use this project as a starting point to create your own applications that use the GitHub API. You can improve the project by adding more information to the search results, such as the number of stars and forks of the user's repositories. You can add more functionality to the project, such as the ability to follow and favorite users.
 
-#Link do projeto:
+##Deploy:
 
 https://nskntc.github.io/GitFav/
-
-**Espero que você goste deste projeto!
